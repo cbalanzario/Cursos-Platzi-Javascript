@@ -8,3 +8,4 @@ function areaTriangulo(base, altura){
 
 console.log(`El área de un triángulo de Base ${base} y altura ${altura} es: ${areaTriangulo(base, altura)}`);
 a
+aaa
