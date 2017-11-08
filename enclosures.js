@@ -23,7 +23,7 @@ saludarMoran("Fabi")
 
 function prefijos(prefijo) {
     return function ponlePrefijo(palabra){
-        console.log(`${prefijo}-${palabra}`)
+        console.log(`${prefijo}${palabra}`)
     }
 }
 const ponlePrefijoRe = prefijos("re")
