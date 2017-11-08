@@ -8,14 +8,9 @@ function suma(...numeros) {
     }, 0)
 }
 
-function dobles(...numeros) {//Función que nos devolverá el doble de sus números en el array
-    /*Código escrito correctamente, aunque se puede reducir y hacerlo más elegante*/
-    const resultado = []
-    for (let i=0; i<numeros.length; i++){
-        resultado.push(numeros[i]*2)
-    }
-    return resultado
-}
-
-
+//Función que nos devolverá el doble de sus números en el array
+const dobles = (...numeros) => numeros.map(numero => numero *2 ) //map recibe una función que se va a ejecutar por cada uno de los elementos
 suma (4, 8, 12, 8954, 7)
+dobles (2,3,4)
+
+//otro método de array es filter, lo podemos usar para encontrar elementos en el arreglo
